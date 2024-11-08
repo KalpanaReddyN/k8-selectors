@@ -6,7 +6,7 @@ spec:
   containers:
   # docker run -d --name nginx nginx
   - name: nginx
-    image: nginx:stable-perl
+    image: nginx:stable-perl 
   # nodeSelector:
   #   hardware: gpu
   tolerations:
@@ -14,3 +14,6 @@ spec:
     operator: "Equal"
     value: "gpu"
     effect: "NoSchedule"  # another option NoExecute, check meaning of that
+
+
+ 
