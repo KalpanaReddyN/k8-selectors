@@ -15,4 +15,7 @@ spec:
     value: "gpu"
     effect: "NoSchedule"  # another option NoExecute, check meaning of that
 
-
+  # nodeSelector:
+  #   hardware: gpu
+  # apply this after the label nodes and see, as we mentioned node selector it goes to the tainted node. 
+  # bcozz we explicilty mentioned to run the pod to go to that particular node.
