@@ -16,4 +16,3 @@ spec:
     effect: "NoSchedule"  # another option NoExecute, check meaning of that
 
 
- 
