@@ -9,11 +9,11 @@ spec:
     image: nginx:stable-perl 
   # nodeSelector:
   #   hardware: gpu
-  tolerations:
-  - key: "hardware"
-    operator: "Equal"
-    value: "gpu"
-    effect: "NoSchedule"  # another option NoExecute, check meaning of that
+  # tolerations:
+  # - key: "hardware"
+  #   operator: "Equal"
+  #   value: "gpu"
+  #   effect: "NoSchedule"  # another option NoExecute, check meaning of that
 
   # nodeSelector:
   #   hardware: gpu
